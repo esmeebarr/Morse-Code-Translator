@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+main section {
+  background: pink;
+  padding: 50px 50px 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50vw;
+  border-style: dotted;
+}
+main section h1 {
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 3em;
+  letter-spacing: -2px;
+  border-bottom: 2px solid black;
+  text-transform: uppercase;
+}
+main section h4 {
+  padding-top: 20px;
+}
+main section input {
+  margin: 8px 0;
+  height: 30px;
+  border-radius: 1px;
+  border: 3px solid white;
+}
+main section input[type=submit] {
+  width: 180px;
+  border: 3px solid white;
+}
+main section #result {
+  height: 30px;
+}
+main section #result span {
+  letter-spacing: 8px;
+}
